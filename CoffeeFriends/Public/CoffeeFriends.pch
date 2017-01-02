@@ -1,0 +1,41 @@
+//
+//  CoffeeFriends.pch
+//  CoffeeFriends
+//
+//  Created by CFC on 17/1/2.
+//  Copyright © 2016年 CFC. All rights reserved.
+//
+
+#ifndef CoffeeFriends_pch
+#define CoffeeFriends_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "AFNetworking.h"
+/**
+ @author WLS, 15-12-08 16:12:16
+ 
+ 导入voip功能类
+ */
+
+#import "UCSService.h"
+#import "UCSCommonClass.h"
+#import "UCSUserDefaultManager.h"
+#import "GTMBase64.h"
+#import "UCSTcpClient.h"
+#import "UCSTCPCommonClass.h"
+
+#endif
+
+#endif /* RobotClient_pch */

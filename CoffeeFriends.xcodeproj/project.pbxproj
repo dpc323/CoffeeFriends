@@ -15,6 +15,14 @@
 		1D0A92EB1E1A37F0006B657D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A92E91E1A37F0006B657D /* LaunchScreen.storyboard */; };
 		1D0A92F61E1A37F0006B657D /* CoffeeFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A92F51E1A37F0006B657D /* CoffeeFriendsTests.m */; };
 		1D0A93011E1A37F0006B657D /* CoffeeFriendsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A93001E1A37F0006B657D /* CoffeeFriendsUITests.m */; };
+		1D0A93151E1A4D8B006B657D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A93141E1A4D8B006B657D /* MobileCoreServices.framework */; };
+		1D0A93171E1A4D92006B657D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A93161E1A4D92006B657D /* CFNetwork.framework */; };
+		1D0A93191E1A4DB1006B657D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A93181E1A4DB1006B657D /* libstdc++.6.0.9.tbd */; };
+		1D0A931B1E1A4DCE006B657D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A931A1E1A4DCE006B657D /* libsqlite3.tbd */; };
+		1D0A931D1E1A4DDA006B657D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A931C1E1A4DDA006B657D /* libxml2.tbd */; };
+		1D0A931F1E1A4DE6006B657D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A931E1E1A4DE6006B657D /* libiconv.tbd */; };
+		1D0A93211E1A4DF3006B657D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A93201E1A4DF3006B657D /* libz.tbd */; };
+		1D0A93231E1A4DFC006B657D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0A93221E1A4DFC006B657D /* libresolv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		1D0A92FC1E1A37F0006B657D /* CoffeeFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0A93001E1A37F0006B657D /* CoffeeFriendsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFriendsUITests.m; sourceTree = "<group>"; };
 		1D0A93021E1A37F0006B657D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0A93111E1A4230006B657D /* CoffeeFriends.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeFriends.pch; sourceTree = "<group>"; };
+		1D0A93121E1A446D006B657D /* PublicMacro.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacro.pch; sourceTree = "<group>"; };
+		1D0A93141E1A4D8B006B657D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1D0A93161E1A4D92006B657D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1D0A93181E1A4DB1006B657D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		1D0A931A1E1A4DCE006B657D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1D0A931C1E1A4DDA006B657D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		1D0A931E1E1A4DE6006B657D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		1D0A93201E1A4DF3006B657D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1D0A93221E1A4DFC006B657D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0A93231E1A4DFC006B657D /* libresolv.tbd in Frameworks */,
+				1D0A93211E1A4DF3006B657D /* libz.tbd in Frameworks */,
+				1D0A931F1E1A4DE6006B657D /* libiconv.tbd in Frameworks */,
+				1D0A931D1E1A4DDA006B657D /* libxml2.tbd in Frameworks */,
+				1D0A931B1E1A4DCE006B657D /* libsqlite3.tbd in Frameworks */,
+				1D0A93191E1A4DB1006B657D /* libstdc++.6.0.9.tbd in Frameworks */,
+				1D0A93171E1A4D92006B657D /* CFNetwork.framework in Frameworks */,
+				1D0A93151E1A4D8B006B657D /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +111,7 @@
 				1D0A92F41E1A37F0006B657D /* CoffeeFriendsTests */,
 				1D0A92FF1E1A37F0006B657D /* CoffeeFriendsUITests */,
 				1D0A92D91E1A37F0006B657D /* Products */,
+				1D0A93131E1A4D8B006B657D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,9 @@
 		1D0A92DA1E1A37F0006B657D /* CoffeeFriends */ = {
 			isa = PBXGroup;
 			children = (
+				1D0A930E1E1A415F006B657D /* Classes */,
+				1D0A930F1E1A415F006B657D /* Public */,
+				1D0A93101E1A415F006B657D /* resoures */,
 				1D0A92DE1E1A37F0006B657D /* AppDelegate.h */,
 				1D0A92DF1E1A37F0006B657D /* AppDelegate.m */,
 				1D0A92E11E1A37F0006B657D /* ViewController.h */,
@@ -138,6 +168,44 @@
 				1D0A93021E1A37F0006B657D /* Info.plist */,
 			);
 			path = CoffeeFriendsUITests;
+			sourceTree = "<group>";
+		};
+		1D0A930E1E1A415F006B657D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1D0A930F1E1A415F006B657D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A93111E1A4230006B657D /* CoffeeFriends.pch */,
+				1D0A93121E1A446D006B657D /* PublicMacro.pch */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1D0A93101E1A415F006B657D /* resoures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resoures;
+			sourceTree = "<group>";
+		};
+		1D0A93131E1A4D8B006B657D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A93221E1A4DFC006B657D /* libresolv.tbd */,
+				1D0A93201E1A4DF3006B657D /* libz.tbd */,
+				1D0A931E1E1A4DE6006B657D /* libiconv.tbd */,
+				1D0A931C1E1A4DDA006B657D /* libxml2.tbd */,
+				1D0A931A1E1A4DCE006B657D /* libsqlite3.tbd */,
+				1D0A93181E1A4DB1006B657D /* libstdc++.6.0.9.tbd */,
+				1D0A93161E1A4D92006B657D /* CFNetwork.framework */,
+				1D0A93141E1A4D8B006B657D /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeeFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = CoffeeFriendsClub.CoffeeFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,6 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeeFriends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = CoffeeFriendsClub.CoffeeFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -505,6 +575,7 @@
 				1D0A93071E1A37F0006B657D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D0A93081E1A37F0006B657D /* Build configuration list for PBXNativeTarget "CoffeeFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +584,7 @@
 				1D0A930A1E1A37F0006B657D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D0A930B1E1A37F0006B657D /* Build configuration list for PBXNativeTarget "CoffeeFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +593,7 @@
 				1D0A930D1E1A37F0006B657D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,21 @@
+DK（EaseMobClientSDK），引用时 #import <EaseMobSDKFull/EaseMob.h>pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
+=end
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+xcodeproj 'CoffeeFriends.xcodeproj'
+
+target :CoffeeFriends do
+
+        pod 'EaseMobSDK', :git => 'https://github.com/easemob/sdk-ios-cocoapods.git'
+	pod 'AFNetworking', '~> 2.4.1'
+        pod 'SDWebImage', '~> 3.5'
+        pod 'FMDB'
+        pod 'MJRefresh'
+        pod 'MBProgressHUD'
+        pod 'JSONKit','~>1.4'
+        pod 'Reachability','~>3.0.0'
+ 
+end
