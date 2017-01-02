@@ -1,4 +1,9 @@
-DK（EaseMobClientSDK），引用时 #import <EaseMobSDKFull/EaseMob.h>pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
+=begin  
+此处注释
+不包含实时语音版本SDK（EaseMobClientSDKLite），引用时 #import <EaseMobSDK/EaseMob.h>
+pod 'EaseMobSDK', :git => 'https://github.com/easemob/sdk-ios-cocoapods.git'
+包含实时语音版本SDK（EaseMobClientSDK），引用时 #import <EaseMobSDKFull/EaseMob.h>
+pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
 =end
 
 source 'https://github.com/CocoaPods/Specs.git'
